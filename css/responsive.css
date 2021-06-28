@@ -1,0 +1,810 @@
+@media (min-width:320px) and (max-width:575px) {
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    nav ul {
+        background-color: #D6C6B2;
+        margin-top: 10px;
+    }
+    nav ul li {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-right: 0px;
+    }
+    nav ul li:last-child {
+        border: none;
+    }
+    nav ul li a {
+        text-align: center;
+        color: #00000c !important;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    nav ul li a:hover {
+        color: #00000c !important;
+    }
+    #banner .text img {
+        display: none;
+    }
+    #banner .text {
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 168px;
+    }
+    #banner .text h3 {
+        font-size: 15px;
+    }
+    #banner .text h1 {
+        font-size: 59px;
+        line-height: 60px;
+    }
+    #banner .text h2 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 56px;
+        padding-bottom: 10px;
+    }
+    #banner .text .btn2 {
+        padding: 10px 30px;
+        margin-right: 10px;
+    }
+    #banner .text a {
+        margin-left: 10px;
+    }
+    #about-me .img {
+        text-align: center;
+    }
+    #about-me .img img {
+        width: 100%;
+    }
+    #about-me .text {
+        margin-left: 0px;
+    }
+    #about-me .title {
+        padding-bottom: 22px;
+    }
+    #about-me .text p {
+        line-height: 27px;
+        padding-bottom: 30px;
+        width: auto;
+    }
+    #about-me .text ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    #about-me .text ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    #service .service-slider .item {
+        margin-right: 0px;
+    }
+    #service .slick-next {
+        left: 58%;
+    }
+    #service .slick-prev {
+        left: 44%;
+    }
+    #portfolio .row {
+        flex-direction: column-reverse;
+    }
+    #portfolio ul li {
+        margin-top: 20px;
+        font-size: 17px;
+        display: inline-block;
+        margin-left: 1px;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+    }
+    #portfolio ul li.mixitup-control-active {
+        padding-left: 10px;
+    }
+    #portfolio .main .mix {
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    #testimonial .overlay .testimonial-slider .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0px;
+    }
+    #testimonial .overlay .testimonial-slider .item .img {
+        width: auto;
+    }
+    #testimonial .overlay .testimonial-slider .item .text {
+        width: auto;
+        text-align: center;
+    }
+    #testimonial .slick-next {
+        left: 58%;
+    }
+    #testimonial .slick-prev {
+        left: 44%;
+    }
+    #pricing .item {
+        margin-bottom: 20px;
+    }
+    #my-blog .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #282828;
+        margin-bottom: 20px;
+    }
+    #my-blog .item .img {
+        width: 100%;
+        position: relative;
+    }
+    #my-blog .item .text {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+    }
+    #my-blog .item .text span {
+        font-size: 10px;
+        margin-right: 28px;
+    }
+    #my-blog .item .text i {
+        font-size: 10px;
+    }
+    #my-blog .item .text h2 {
+        font-size: 19px;
+    }
+    #my-blog .item .text p {
+        font-size: 13px;
+        padding-top: 14px;
+        padding-right: 0px;
+    }
+    #my-blog .item .text .btn1 {
+        margin-left: 0px;
+    }
+    #my-blog .item .text .btn2 {
+        margin-left: 94px;
+    }
+    #my-blog .item-2 .text-2 {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 span {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    #my-blog .item-2 .text-2 i {
+        font-size: 11px;
+    }
+    #my-blog .item-2 .text-2 h2 {
+        font-size: 19px;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 p {
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 85px;
+    }
+    #my-blog .item-2 .text-2 .btn1 {
+        margin-left: 0px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .contact input {
+        width: 100%;
+        margin-top: 18px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 0px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    footer .copyright h4 {
+        font-size: 12px;
+    }
+    /* ========================================= */
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    nav ul {
+        background-color: #D6C6B2;
+        margin-top: 10px;
+    }
+    nav ul li {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-right: 0px;
+    }
+    nav ul li:last-child {
+        border: none;
+    }
+    nav ul li a {
+        text-align: center;
+        color: #00000c !important;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    nav ul li a:hover {
+        color: #00000c !important;
+    }
+    #banner .text img {
+        display: none;
+    }
+    #banner .text {
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 168px;
+    }
+    #banner .text h3 {
+        font-size: 15px;
+    }
+    #banner .text h1 {
+        font-size: 59px;
+        line-height: 60px;
+    }
+    #banner .text h2 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 56px;
+        padding-bottom: 10px;
+    }
+    #banner .text .btn2 {
+        padding: 10px 30px;
+        margin-right: 10px;
+    }
+    #banner .text a {
+        margin-left: 10px;
+    }
+    #about-me .img {
+        text-align: center;
+    }
+    #about-me .img img {
+        width: 100%;
+    }
+    #about-me .text {
+        margin-left: 0px;
+    }
+    #about-me .title {
+        padding-bottom: 22px;
+    }
+    #about-me .text p {
+        line-height: 27px;
+        padding-bottom: 30px;
+        width: auto;
+    }
+    #about-me .text ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    #about-me .text ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    #service .service-slider .item {
+        margin-right: 0px;
+    }
+    #service .slick-next {
+        left: 54%;
+    }
+    #service .slick-prev {
+        left: 47%;
+    }
+    #portfolio .row {
+        flex-direction: column-reverse;
+    }
+    #portfolio ul li {
+        margin-top: 20px;
+        font-size: 17px;
+        display: inline-block;
+        margin-left: 12px;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+    }
+    #portfolio ul li.mixitup-control-active {
+        padding-left: 10px;
+    }
+    #portfolio .main .mix {
+        width: 48%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    #testimonial .overlay .testimonial-slider .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0px;
+    }
+    #testimonial .overlay .testimonial-slider .item .img {
+        width: auto;
+    }
+    #testimonial .overlay .testimonial-slider .item .text {
+        width: auto;
+        text-align: center;
+    }
+    #testimonial .slick-next {
+        left: 54%;
+    }
+    #testimonial .slick-prev {
+        left: 47%;
+    }
+    #pricing .item {
+        margin-bottom: 20px;
+    }
+    #my-blog .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #282828;
+        margin-bottom: 20px;
+    }
+    #my-blog .item .img {
+        width: 100%;
+        position: relative;
+    }
+    #my-blog .item .text {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+    }
+    #my-blog .item .text span {
+        font-size: 14px;
+        margin-right: 169px;
+    }
+    #my-blog .item .text .btn1 {
+        margin-left: 0px;
+    }
+    #my-blog .item .text .btn2 {
+        margin-left: 304px;
+    }
+    #my-blog .item-2 .text-2 {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 span {
+        margin-right: 165px;
+    }
+    #my-blog .item-2 .text-2 h2 {
+        font-size: 25px;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 p {
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 303px;
+    }
+    #my-blog .item-2 .text-2 .btn1 {
+        margin-left: 0px;
+    }
+    footer .item-2 {
+        margin-top: 58px;
+    }
+    footer .item-2 Ul {
+        margin-bottom: 40px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .contact input {
+        width: 100%;
+        margin-top: 18px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 0px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    footer .copyright h4 {
+        font-size: 12px;
+    }
+    /* ========================================= */
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    nav ul li {
+        padding-right: 0px;
+    }
+    #banner .text {
+        text-align: center;
+        padding-right: 0px;
+    }
+    #banner .text h1, h2, h3, a {
+        z-index: 99;
+        position: relative;
+    }
+    #banner .text .btn2 {
+        padding: 10px 30px;
+        margin-right: 10px;
+    }
+    #banner .text a {
+        margin-left: 20px;
+    }
+    #about-me .img {
+        text-align: center;
+    }
+    #about-me .img img {
+        width: 100%;
+    }
+    #about-me .text {
+        margin-left: 0px;
+    }
+    #about-me .title {
+        padding-bottom: 22px;
+    }
+    #about-me .text p {
+        line-height: 27px;
+        padding-bottom: 30px;
+        width: auto;
+    }
+    #about-me .text ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    #about-me .text ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    #service .service-slider .item {
+        margin-right: 20px;
+    }
+    #service .slick-next {
+        left: 54%;
+    }
+    #service .slick-prev {
+        left: 47%;
+    }
+    #portfolio .row {
+        flex-direction: column-reverse;
+    }
+    #portfolio ul li {
+        margin-top: 20px;
+        font-size: 17px;
+        display: inline-block;
+        margin-left: 12px;
+        padding: 5px 10px;
+        border: 1px solid #fff;
+    }
+    #portfolio ul li.mixitup-control-active {
+        padding-left: 10px;
+    }
+    #portfolio .main .mix {
+        width: 48%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    #testimonial .overlay .testimonial-slider .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0px;
+    }
+    #testimonial .overlay .testimonial-slider .item .img {
+        width: auto;
+    }
+    #testimonial .overlay .testimonial-slider .item .text {
+        width: auto;
+        text-align: center;
+    }
+    #testimonial .slick-next {
+        left: 54%;
+    }
+    #testimonial .slick-prev {
+        left: 47%;
+    }
+    #my-blog .item .img {
+        width: 100%;
+        position: relative;
+    }
+    #my-blog .item .text {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+    }
+    #my-blog .item .img {
+        width: 55%;
+    }
+    #my-blog .item .text span {
+        font-size: 14px;
+        margin-right: 105px;
+    }
+    #my-blog .item .text .btn1 {
+        margin-left: 0px;
+    }
+    #my-blog .item .text .btn2 {
+        margin-left: 242px;
+    }
+    #my-blog .item-2 .text-2 {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 span {
+        margin-right: 304px;
+        font-size: 17px;
+    }
+    #my-blog .item-2 .text-2 h2 {
+        font-size: 34px;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 p {
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 303px;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 475px;
+    }
+    footer .item-2 {
+        margin-top: 58px;
+    }
+    footer .item-2 Ul {
+        margin-bottom: 40px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .item-1 Ul li a, span {
+        font-size: 30px;
+    }
+    footer .contact input {
+        width: 100%;
+        margin-top: 18px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 0px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    footer .copyright h4 {
+        font-size: 12px;
+    }
+    /* ========================================= */
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    #banner .text {
+        padding-right: 42px;
+    }
+    #banner .text img {
+        left: 6%;
+    }
+    #banner .text .btn2 {
+        padding: 10px 30px;
+        margin-right: 10px;
+    }
+    #banner .text a {
+        margin-left: 20px;
+    }
+    #about-me .img img {
+        width: 100%;
+        margin-top: 57px;
+    }
+    #about-me .text {
+        margin-left: 0px;
+    }
+    #about-me .title {
+        padding-bottom: 22px;
+    }
+    #about-me .text p {
+        line-height: 27px;
+        padding-bottom: 30px;
+        width: auto;
+    }
+    #about-me .text ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    #about-me .text ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    #testimonial .overlay .testimonial-slider .item .text {
+        width: 59%;
+    }
+    #my-blog .item .text {
+        padding: 0px 20px;
+        color: #999999;
+    }
+    #my-blog .item .img {
+        width: 55%;
+    }
+    #my-blog .item .text h2 {
+        font-size: 17px;
+    }
+    #my-blog .item .text span {
+        font-size: 10px;
+        margin-right: 3px;
+    }
+    #my-blog .item .text i {
+        font-size: 10px;
+    }
+    #my-blog .item .text .btn1 {
+        margin-left: 0px;
+    }
+    #my-blog .item .text .btn2 {
+        margin-left: 56px;
+    }
+    #my-blog .item-2 .text-2 {
+        width: 100%;
+        padding: 20px 20px;
+        color: #999999;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 span {
+        margin-right: 16px;
+        font-size: 15px;
+    }
+    #my-blog .item-2 .text-2 h2 {
+        font-size: 26px;
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 p {
+        text-align: left;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 303px;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        margin-left: 155px;
+    }
+    footer .item-2 {
+        margin-top: 58px;
+    }
+    footer .item-2 Ul {
+        margin-bottom: 40px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .contact input {
+        width: 100%;
+        margin-top: 18px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 0px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    footer .copyright h4 {
+        font-size: 12px;
+    }
+    /* ========================================= */
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+    footer .item-2 {
+        margin-top: 58px;
+    }
+    footer .item-2 Ul {
+        margin-bottom: 40px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 35px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    /* ========================================= */
+}
+
+@media (min-width:1400px) {
+    #banner .text img {
+        left: 27%;
+    }
+    #testimonial .overlay .testimonial-slider .item .text {
+        width: 74%;
+    }
+    #my-blog .item .text h2 {
+        font-size: 23px;
+    }
+    #my-blog .item .text span {
+        margin-right: 73px;
+    }
+    #my-blog .item .text .btn2 {
+        margin-left: 198px;
+    }
+    #my-blog .item-2 .text-2 h2 {
+        font-size: 27px;
+    }
+    #my-blog .item-2 .text-2 span {
+        margin-right: 163px;
+    }
+    #my-blog .item-2 .text-2 p {
+        font-size: 18px;
+    }
+    #my-blog .item-2 .text-2 .btn2 {
+        font-size: 19px;
+        margin-left: 288px;
+    }
+    footer .item-2 {
+        margin-top: 58px;
+    }
+    footer .item-2 Ul {
+        margin-bottom: 40px;
+    }
+    footer .item-2 Ul LI a {
+        line-height: 35px;
+    }
+    footer .contact input:nth-child(1) {
+        margin-right: 44px;
+    }
+    footer .contact button {
+        position: absolute;
+        bottom: 30px;
+        right: 19px;
+    }
+    footer .contact button i {
+        font-size: 37px;
+        top: 69%;
+        left: 67%;
+    }
+    /* ========================================= */
+}
